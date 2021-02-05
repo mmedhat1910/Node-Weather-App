@@ -1,5 +1,3 @@
-console.log('Client Side Js');
-
 let form = document.querySelector('form');
 let input = document.querySelector('form input');
 let icon = document.querySelector('#icon');
@@ -10,7 +8,7 @@ form.addEventListener('submit', (e) => {
 	e.preventDefault();
 	const location = input.value;
 
-	fetch(`http://localhost:3000/weather?address=${location}`).then((response) => {
+	fetch(`/weather?address=${location}`).then((response) => {
 		response.json().then((data) => {
 			if (data.error) {
 				console.log(data.error);
