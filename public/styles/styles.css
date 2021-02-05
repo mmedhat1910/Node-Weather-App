@@ -1,0 +1,80 @@
+body {
+	color: #333333;
+	font-family: arial;
+	width: 70%;
+	margin: 10px auto;
+	padding: 0 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-content {
+	flex-grow: 1;
+}
+
+footer {
+	color: #888888;
+	border-top: 1px solid #eeeeee;
+	margin-top: 16px;
+	padding: 16px 0;
+}
+
+header {
+	margin-top: 16px;
+	margin-bottom: 48px;
+}
+
+h1 {
+	font-size: 64px;
+	margin-bottom: 16px;
+}
+
+header a {
+	color: #888888;
+	margin-right: 16px;
+	text-decoration: none;
+}
+
+.portrait {
+	width: 250px;
+}
+
+input {
+	border: 1px solid #cccccc;
+	padding: 8px;
+}
+
+button {
+	cursor: pointer;
+	border: 1px solid #888888;
+	background: #888888;
+	color: white;
+	padding: 8px;
+}
+.not-found {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.not-found span {
+	font-size: 15rem;
+	font-weight: bold;
+}
+.not-found p {
+	font-size: 3rem;
+}
+.not-found a {
+	font-size: 150%;
+}
+
+form input {
+	width: 30vw;
+}
+@media only screen and (max-width: 786px) {
+	form input {
+		width: 40vw;
+	}
+}
