@@ -59,6 +59,7 @@ button {
 	color: white;
 	padding: 8px;
 }
+
 .not-found {
 	width: 100%;
 	height: 100vh;
@@ -84,5 +85,15 @@ form input {
 @media only screen and (max-width: 786px) {
 	form input {
 		width: 40vw;
+	}
+	.not-found span {
+		font-size: 7rem;
+		font-weight: bold;
+	}
+	.not-found p {
+		font-size: 1.2rem;
+	}
+	.not-found a {
+		font-size: 150%;
 	}
 }
