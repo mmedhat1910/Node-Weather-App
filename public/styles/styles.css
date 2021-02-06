@@ -17,6 +17,9 @@ footer {
 	border-top: 1px solid #eeeeee;
 	margin-top: 16px;
 	padding: 16px 0;
+	width: 70%;
+	position: absolute;
+	bottom: 0;
 }
 
 header {
