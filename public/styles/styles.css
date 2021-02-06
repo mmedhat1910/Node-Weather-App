@@ -3,7 +3,7 @@ body {
 	font-family: arial;
 	width: 70%;
 	margin: 10px auto;
-	padding: 0 20px;
+	padding: 0 0;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -12,7 +12,11 @@ body {
 .main-content {
 	flex-grow: 1;
 }
-
+@media screen and (max-width: 786px) {
+	#my-image {
+		width: 100%;
+	}
+}
 footer {
 	color: #888888;
 	border-top: 1px solid #eeeeee;
@@ -20,7 +24,7 @@ footer {
 	padding: 16px 0;
 	width: 70%;
 	position: absolute;
-	bottom: 0;
+	top: 90vh;
 }
 
 header {
