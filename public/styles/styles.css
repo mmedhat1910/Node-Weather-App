@@ -6,6 +6,7 @@ body {
 	padding: 0 20px;
 	display: flex;
 	flex-direction: column;
+	min-height: 80vh;
 }
 
 .main-content {
