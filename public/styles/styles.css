@@ -24,7 +24,7 @@ footer {
 	padding: 16px 0;
 	width: 70%;
 	position: absolute;
-	top: 90vh;
+	bottom: 0;
 }
 
 header {
